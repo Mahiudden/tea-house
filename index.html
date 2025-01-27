@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            Manrope: ["Manrope", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body>
+  <div
+    class="flex gap-4 lg:flex-row flex-col justify-center lg:items-center lg:text-start text-center items-center p-4 mt-8 mx-auto">
+    <div class="lg:w-1/2 w-full">
+      <h1 class="text-7xl font-extrabold font-Manrope lg:p-4 lg:mt-8">
+        It's good tea time at The Tea House
+      </h1>
+      <p class="font-Manrope font-medium text-lg mt-0 p-4">
+        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+        Taste Buds.
+      </p>
+      <div class="mt-3 p-4">
+        <button
+          class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-black font-Manrope font-bold px-4 py-2 rounded">
+          Explore More
+          <img src="./images/arrow.png" class="inline-block ml-2" width="15" alt="" />
+        </button>
+      </div>
+    </div>
+    <div>
+      <img src="./images/banner.png" alt="" />
+      <div
+        class="flex gap-4 justify-center rounded-lg relative mt-[-100px] z-30 bg-white items-center shadow-lg w-1/2 p-4">
+        <p class="text-3xl">⭐</p>
+        <div>
+          <h3 class="font-bold text-3xl">5.00</h3>
+          <p class="font-Manrope font-medium text-lg">Trust Pilot Ratings</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex gap-4 flex-col justify-center text-center items-center mt-8">
+    <div class="mt-8">
+      <h1 class="font-Manrope font-extrabold text-4xl">
+        Our Featured Products
+      </h1>
+      <p class="font-Manrope font-medium text-lg mt-4">
+        There are many variations of passages of Lorem Ipsum available, but
+        the majority have suffered alteration in some form, by injected
+        humour, or randomised words which don't look even slightly believable.
+      </p>
+    </div>
+    <div class="grid lg:grid-cols-4 lg:p-4 grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+      <div class="flex flex-col items-center bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF] p-4 rounded-lg">
+        <img src="./images/tea-1.png" width="45%" alt="" />
+        <h3 class="mt-4 font-Manrope font-extrabold text-2xl">Milk Tea</h3>
+        <p class="font-Manrope font-medium text-lg mt-4">
+          Creamer could be replaced by fresh milk
+        </p>
+      </div>
+      <div class="flex flex-col items-center bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF] p-4 rounded-lg">
+        <img src="./images/tea-2.png" width="49%" alt="" />
+        <h3 class="mt-4 font-Manrope font-extrabold text-2xl">Black Tea</h3>
+        <p class="font-Manrope font-medium text-lg mt-4">
+          Creamer could be replaced by fresh milk
+        </p>
+      </div>
+      <div class="flex flex-col items-center bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF] p-4 rounded-lg">
+        <img src="./images/tea-3.png" width="49%" alt="" />
+        <h3 class="mt-4 font-Manrope font-extrabold text-2xl">Lemon Tea</h3>
+        <p class="font-Manrope font-medium text-lg mt-4">
+          Creamer could be replaced by fresh milk
+        </p>
+      </div>
+      <div class="flex flex-col items-center bg-gradient-to-r from-[#F4F4F4] to-[#FFFFFF] p-4 rounded-lg">
+        <img src="./images/tea-4.png" width="45%" alt="" />
+        <h3 class="mt-4 font-Manrope font-extrabold text-2xl">Green Tea</h3>
+        <p class="font-Manrope font-medium text-lg mt-4">
+          Creamer could be replaced by fresh milk
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="mx-auto flex gap-4 lg:flex-row flex-col p-4 justify-center lg:gap-52 mt-8 items-center">
+    <div class="grid grid-rows-4 grid-cols-2 lg:w-1/3 h-[450px] w-full">
+      <div class="m-2 col-span-1 row-span-1 rounded-lg bg-gradient-to-t from-[#7856141a] to-[#E6A6231A]"></div>
+      <div class="m-2 col-span-1 row-span-3 rounded-lg bg-[#E6A6231A] flex justify-center items-center">
+        <img src="./images/fresh-1.png" alt="" />
+      </div>
+      <div class="m-2 col-span-1 row-span-3 rounded-lg bg-[#5776391A] flex justify-center items-center">
+        <img src="./images/fresh-2.png" alt="" />
+      </div>
+      <div class="m-2 col-span-1 row-span-1 rounded-lg bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]"></div>
+    </div>
+    <div class="lg:w-1/3 w-full">
+      <h1 class="font-Manrope font-extrabold text-4xl">
+        Great Tea, Freshly Presented
+      </h1>
+      <p class="font-Manrope font-medium text-lg mt-4">
+        The meaning of gong cha is chanese is to provide the best tea to
+        emperor from all possessions . It represents the highest quality and
+        self expectation. Establishing in 2006, Gong cha had been deeply
+        appreciated by its custoers because of good words of mouth and unique
+        customized service orginated from Taiwan.
+      </p>
+      <h1 class="font-Manrope font-extrabold text-2xl mt-4">Unique Taste</h1>
+      <p class="font-Manrope font-medium text-lg mt-4">
+        A Unique and different style from other teapots gives a luxurious and
+        minimalist impression
+      </p>
+      <h1 class="font-Manrope font-extrabold text-2xl mt-4">
+        Premium Quality
+      </h1>
+      <p class="font-Manrope font-medium text-lg mt-4">
+        Premium Quality that makes tea more elegant and more durable when you
+        use it.
+      </p>
+    </div>
+  </div>
+  <div
+    class="w-[80%] h-[650px]  hidden xl:hidden relative mt-20 items-center lg:flex gap-4 p-4 rounded-lg justify-around mx-auto bg-gradient-to-l from-[#F03F1B] to-[#FF8938]">
+    <div class="w-1/3">
+      <h1 class="font-Manrope font-extrabold text-white text-5xl">
+        Meet Our Super Clients
+      </h1>
+      <p class="font-Manrope font-medium text-white text-lg mt-4">
+        There are many variations of passages of Lorem Ipsum available, but
+        the majority have suffered alteration in some form, by injected
+        humour, or randomised words which don't look even slightly believable.
+      </p>
+      <div>
+        <button class="font-Manrope bg-white rounded-lg px-4 py-2 text-[#FF0000] font-medium text-lg mt-4">
+          Show More
+        </button>
+      </div>
+    </div>
+    <div class="w-1/3 ">
+      <div class="opacity-50 flex flex-col gap-10">
+        <div class="bg-white p-4 rounded-lg relative">
+          <div class="absolute -top-11 -left-8 p-[2px] rounded-full bg-white">
+            <img src="./images/client.png" alt="" />
+          </div>
+          <div class="mt-4 px-6 mb-4">
+            <p class="font-Manrope font-medium text-lg">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h2 class="font-Manrope font-extrabold text-lg mt-4">William Anderson</h2>
+            <p class="font-Manrope font-medium text-lg mt-4">CEO at Company</p>
+          </div>
+        </div>
+        <div class="bg-white p-4 rounded-lg relative">
+          <div class="absolute -top-11 -left-8 p-[2px] rounded-full bg-white">
+            <img src="./images/client.png" alt="" />
+          </div>
+          <div class="mt-4 px-6 mb-4">
+            <p class="font-Manrope font-medium text-lg">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h2 class="font-Manrope font-extrabold text-lg mt-4">William Anderson</h2>
+            <p class="font-Manrope font-medium text-lg mt-4">CEO at Company</p>
+          </div>
+        </div>
+      </div> 
+      <div class="absolute top-52 right-56 w-[456px]">
+        <div class="bg-white p-4 rounded-lg relative">
+          <div class="absolute -top-11 -left-8 p-[2px] rounded-full bg-white">
+            <img src="./images/client.png" alt="" />
+          </div>
+          <div class="mt-4 px-6 mb-4">
+            <p class="font-Manrope font-medium text-lg">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h2 class="font-Manrope font-extrabold text-lg mt-4">William Anderson</h2>
+            <div class="flex items-center justify-between text-center">
+              <p class="font-Manrope font-medium text-center text-lg mt-4">CEO at Company</p>
+              <img src="./images/circles.png" class="mt-5" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col mb-16 items-center w-full justify-center">
+    <div>
+      <h1 class="font-Manrope font-extrabold text-4xl text-center mt-20">
+        News & Events
+      </h1>
+      <p class="font-Manrope font-medium text-lg mt-4 text-center">
+        There are many variations of passages of Lorem Ipsum available, but
+        the majority have suffered alteration in some form, by injected
+        humour, or randomised words which don't look even slightly believable.
+      </p>
+    </div>
+    <div class="flex justify-center items-center gap-4 mt-8">
+      <div class="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="flex flex-col border rounded-lg p-4 border-[#D2D2D2] justify-center">
+          <img src="./images/news-1.png" width="100%" alt="" />
+          <p class="text-[#A2A2A2] mt-3">Aug 16, 2020</p>
+          <h2 class="font-Manrope font-extrabold text-lg mt-4">Collecting 8 points for discount</h2>
+          <p class="font-Manrope font-medium text-lg mt-4">There are many variations of passages of <br> Lorem Ipsum available</p>
+          <p class="font-Manrope font-medium text-lg mt-4">Read More</p>
+        </div>
+        <div class="flex flex-col border rounded-lg p-4 border-[#D2D2D2] justify-center">
+          <img src="./images/news-2.png" width="100%" alt="" />
+          <p class="text-[#A2A2A2] mt-3">Aug 16, 2020</p>
+          <h2 class="font-Manrope font-extrabold text-lg mt-4">Collecting 8 points for discount</h2>
+          <p class="font-Manrope font-medium text-lg mt-4">There are many variations of passages of <br> Lorem Ipsum available</p>
+          <p class="font-Manrope font-medium text-lg mt-4">Read More</p>
+        </div>
+        <div class="flex flex-col border rounded-lg p-4 border-[#D2D2D2]">
+          <img src="./images/news-3.png" width="100%" alt="" />
+          <p class="text-[#A2A2A2] mt-3">Aug 16, 2020</p>  
+          <h2 class="font-Manrope font-extrabold text-lg mt-4">Collecting 8 points for discount</h2>
+          <p class="font-Manrope font-medium text-lg mt-4">There are many variations of passages of <br> Lorem Ipsum available</p>
+          <p class="font-Manrope font-medium text-lg mt-4">Read More</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="w-full bg-[#ffd0ae] p-10">
+    <div class="flex items-center justify-around lg:space-x-80 lg:gap-96">
+       <img src="./images/cup.png" alt="">
+       <div class="flex gap-28 justify-center text-center items-center">
+          <p class="font-Manrope font-medium text-lg mt-5 text-center">Ready to get strated?</p>
+         <button class="bg-[#FF0000] text-white rounded-lg px-4 py-2 font-medium text-lg mt-4">Get Started</button>
+       </div>
+    </div>
+    <div class="flex justify-around mt-16">
+      <div>
+        <h2 class="font-Manrope font-extrabold text-lg">Quick Links</h2>
+        <ul class="mt-4">
+          <li class="font-Manrope font-medium text-lg">Home</li>
+          <li class="font-Manrope font-medium text-lg">Services</li>
+          <li class="font-Manrope font-medium text-lg">Plans</li>
+          <li class="font-Manrope font-medium text-lg">Contact Us</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-Manrope font-extrabold text-lg">Our Services</h2>
+        <ul class="mt-4">
+          <li class="font-Manrope font-medium text-lg">Life Insurance</li>
+          <li class="font-Manrope font-medium text-lg">Health Insurance</li>
+          <li class="font-Manrope font-medium text-lg">Car Insurance</li>
+          <li class="font-Manrope font-medium text-lg">House Insurance</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-Manrope font-extrabold text-lg">Help</h2>
+        <ul class="mt-4">
+          <li class="font-Manrope font-medium text-lg">FAQs</li>
+          <li class="font-Manrope font-medium text-lg">Contact Us</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="font-Manrope font-extrabold text-3xl">Subscribe to our<br> Newsletter</h2>
+        <input type="text" placeholder="Email Address" class="focus:outline-none bg-inherit rounded-lg px-4 py-2 mt-4">
+        <hr class="bg-black h-1">
+        <div class="flex gap-4 p-3">
+          <i class="fa-brands fa-facebook text-[#494949]"></i>
+          <i class="fa-brands fa-twitter text-[#494949]"></i>
+          <i class="fa-brands fa-instagram text-[#494949]"></i>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+</body>
+</html>
